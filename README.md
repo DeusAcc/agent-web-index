@@ -1,6 +1,6 @@
 # Agent Web Index — how much of the web can AI assistants actually read?
 
-**47,019 domains measured live. 22% of them cannot be read by at least one of
+**47,023 domains measured live. 22% of them cannot be read by at least one of
 ChatGPT, Claude, Perplexity or Gemini.** Updated daily. Live index: <https://shop.lumnika.com/ai-readiness/>
 
 Every row here is the result of real HTTP requests, not an estimate and not a re-publication of
@@ -15,14 +15,14 @@ this by making the request as that crawler, which is why no robots.txt study rep
 
 | Crawler | Domains measured | Served | robots.txt says no | Server says no anyway |
 |---|---|---|---|---|
-| claudebot | 47,019 | 84% | 2,067 | 6,526 |
-| gptbot | 47,019 | 85% | 2,585 | 6,207 |
-| oai-searchbot | 47,019 | 90% | 823 | 4,494 |
-| perplexitybot | 47,019 | 90% | 1,230 | 4,374 |
-| meta-externalagent | 18,647 | 83% | 826 | 2,941 |
-| amazonbot | 18,647 | 79% | 900 | 3,669 |
-| bytespider | 357 | 74% | 28 | 81 |
-| applebot | 357 | 89% | 5 | 40 |
+| claudebot | 47,023 | 84% | 2,067 | 6,527 |
+| gptbot | 47,023 | 85% | 2,585 | 6,208 |
+| oai-searchbot | 47,023 | 90% | 823 | 4,495 |
+| perplexitybot | 47,023 | 90% | 1,230 | 4,375 |
+| meta-externalagent | 18,651 | 83% | 826 | 2,942 |
+| amazonbot | 18,651 | 79% | 900 | 3,670 |
+| bytespider | 361 | 74% | 28 | 82 |
+| applebot | 361 | 89% | 5 | 41 |
 
 Broken down by whoever answers in front of the site (read from the response headers of the same
 request: `cf-ray`, `akamai-grn`, `x-amz-cf-id`, `x-fastly-request-id`…). Unit: one domain ×
@@ -31,15 +31,15 @@ contradicts the site's own stated policy, and is almost always an edge default n
 
 | Edge in front of the site | Domains | Requests robots.txt allows | Refused anyway |
 |---|---|---|---|
-| Akamai | 265 | 1,233 | 43% |
+| Akamai | 266 | 1,241 | 43% |
 | Google | 716 | 3,410 | 39% |
 | Sucuri | 52 | 267 | 19% |
 | AWS CloudFront | 2,896 | 13,707 | 16% |
-| Cloudflare | 25,219 | 111,034 | 13% |
-| no known edge | 11,265 | 54,260 | 11% |
+| Cloudflare | 25,220 | 111,042 | 13% |
+| no known edge | 11,266 | 54,268 | 11% |
 | DDoS-Guard | 264 | 1,340 | 10% |
 | Azure Front Door | 283 | 1,343 | 9% |
-| Fastly | 1,335 | 5,883 | 8% |
+| Fastly | 1,336 | 5,891 | 8% |
 | Varnish | 253 | 1,192 | 7% |
 
 ## Files
@@ -66,7 +66,7 @@ contradicts the site's own stated policy, and is almost always an edge default n
 
 ## Citing
 
-> Agent Web Index, 2026-09-19. 47,019 domains. <https://shop.lumnika.com/ai-readiness/>
+> Agent Web Index, 2026-09-19. 47,023 domains. <https://shop.lumnika.com/ai-readiness/>
 
 Licence: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — use it, say where it came from.
 
