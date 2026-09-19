@@ -1,0 +1,211 @@
+{
+ "n": 46907,
+ "measured": 86226,
+ "failed": 22477,
+ "infra": 16227,
+ "updatedAt": "2026-09-19T18:34:24.524Z",
+ "meanScore": 73,
+ "medianScore": 74,
+ "grades": {
+  "B": 9330,
+  "D": 7274,
+  "C": 14874,
+  "A+": 3181,
+  "F": 2408,
+  "A": 9840
+ },
+ "anyBlocked": 10516,
+ "anyBlockedPct": 0.22418828746242564,
+ "allOpen": 36391,
+ "allOpenPct": 0.7758117125375743,
+ "needsJs": 4466,
+ "withLd": 19916,
+ "withLlms": 17731,
+ "withSignal": 622,
+ "medianTokens": 1183,
+ "perBot": [
+  {
+   "id": "claudebot",
+   "n": 46907,
+   "served": 39614,
+   "robotsBlocked": 2066,
+   "edgeBlocked": 6503
+  },
+  {
+   "id": "gptbot",
+   "n": 46907,
+   "served": 39809,
+   "robotsBlocked": 2583,
+   "edgeBlocked": 6190
+  },
+  {
+   "id": "oai-searchbot",
+   "n": 46907,
+   "served": 42124,
+   "robotsBlocked": 823,
+   "edgeBlocked": 4490
+  },
+  {
+   "id": "perplexitybot",
+   "n": 46907,
+   "served": 42137,
+   "robotsBlocked": 1229,
+   "edgeBlocked": 4366
+  },
+  {
+   "id": "google-extended",
+   "n": 46907,
+   "robotsOnly": true,
+   "robotsBlocked": 1765,
+   "allowed": 45142,
+   "served": null,
+   "edgeBlocked": null
+  },
+  {
+   "id": "meta-externalagent",
+   "n": 18535,
+   "served": 15334,
+   "robotsBlocked": 826,
+   "edgeBlocked": 2931
+  },
+  {
+   "id": "amazonbot",
+   "n": 18535,
+   "served": 14559,
+   "robotsBlocked": 897,
+   "edgeBlocked": 3652
+  },
+  {
+   "id": "bytespider",
+   "n": 245,
+   "served": 181,
+   "robotsBlocked": 25,
+   "edgeBlocked": 54
+  },
+  {
+   "id": "applebot",
+   "n": 245,
+   "served": 215,
+   "robotsBlocked": 5,
+   "edgeBlocked": 30
+  },
+  {
+   "id": "applebot-extended",
+   "n": 245,
+   "robotsOnly": true,
+   "robotsBlocked": 16,
+   "allowed": 229,
+   "served": null,
+   "edgeBlocked": null
+  }
+ ],
+ "perEdge": [
+  {
+   "id": "Google",
+   "n": 619,
+   "allowedPairs": 2857,
+   "blockedPairs": 1245,
+   "pct": 0.4357717885894295
+  },
+  {
+   "id": "Akamai",
+   "n": 229,
+   "allowedPairs": 1021,
+   "blockedPairs": 425,
+   "pct": 0.41625857002938293
+  },
+  {
+   "id": "AWS CloudFront",
+   "n": 2239,
+   "allowedPairs": 10022,
+   "blockedPairs": 1555,
+   "pct": 0.15515865096787068
+  },
+  {
+   "id": "DDoS-Guard",
+   "n": 204,
+   "allowedPairs": 995,
+   "blockedPairs": 110,
+   "pct": 0.11055276381909548
+  },
+  {
+   "id": "Cloudflare",
+   "n": 22417,
+   "allowedPairs": 94552,
+   "blockedPairs": 9995,
+   "pct": 0.1057090278365344
+  },
+  {
+   "id": "no known edge",
+   "n": 8580,
+   "allowedPairs": 38843,
+   "blockedPairs": 4084,
+   "pct": 0.10514120948433438
+  },
+  {
+   "id": "Azure Front Door",
+   "n": 208,
+   "allowedPairs": 925,
+   "blockedPairs": 82,
+   "pct": 0.08864864864864865
+  },
+  {
+   "id": "Fastly",
+   "n": 1089,
+   "allowedPairs": 4606,
+   "blockedPairs": 355,
+   "pct": 0.07707338254450717
+  },
+  {
+   "id": "Varnish",
+   "n": 186,
+   "allowedPairs": 839,
+   "blockedPairs": 60,
+   "pct": 0.07151370679380215
+  },
+  {
+   "id": "Alibaba",
+   "n": 65,
+   "allowedPairs": 327,
+   "blockedPairs": 22,
+   "pct": 0.0672782874617737
+  },
+  {
+   "id": "Qrator",
+   "n": 141,
+   "allowedPairs": 666,
+   "blockedPairs": 41,
+   "pct": 0.06156156156156156
+  },
+  {
+   "id": "Vercel",
+   "n": 421,
+   "allowedPairs": 1995,
+   "blockedPairs": 106,
+   "pct": 0.053132832080200504
+  },
+  {
+   "id": "BunnyCDN",
+   "n": 71,
+   "allowedPairs": 333,
+   "blockedPairs": 13,
+   "pct": 0.03903903903903904
+  },
+  {
+   "id": "Netlify",
+   "n": 143,
+   "allowedPairs": 709,
+   "blockedPairs": 22,
+   "pct": 0.031029619181946404
+  },
+  {
+   "id": "Imperva",
+   "n": 113,
+   "allowedPairs": 540,
+   "blockedPairs": 13,
+   "pct": 0.024074074074074074
+  }
+ ],
+ "edgeMeasured": 36786,
+ "series": []
+}
