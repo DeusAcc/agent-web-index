@@ -1,211 +1,218 @@
 {
- "n": 46907,
- "measured": 86226,
- "failed": 22477,
- "infra": 16227,
- "updatedAt": "2026-09-19T18:34:24.524Z",
+ "n": 47019,
+ "measured": 86346,
+ "failed": 22482,
+ "infra": 16230,
+ "updatedAt": "2026-09-19T19:18:59.663Z",
  "meanScore": 73,
  "medianScore": 74,
  "grades": {
-  "B": 9330,
-  "D": 7274,
-  "C": 14874,
-  "A+": 3181,
+  "B": 9353,
+  "D": 7277,
+  "C": 14900,
+  "A+": 3198,
   "F": 2408,
-  "A": 9840
+  "A": 9883
  },
- "anyBlocked": 10516,
- "anyBlockedPct": 0.22418828746242564,
- "allOpen": 36391,
- "allOpenPct": 0.7758117125375743,
+ "anyBlocked": 10558,
+ "anyBlockedPct": 0.22454752334162786,
+ "allOpen": 36461,
+ "allOpenPct": 0.7754524766583721,
  "needsJs": 4466,
- "withLd": 19916,
- "withLlms": 17731,
- "withSignal": 622,
- "medianTokens": 1183,
+ "withLd": 20007,
+ "withLlms": 17764,
+ "withSignal": 623,
+ "medianTokens": 1186,
  "perBot": [
   {
    "id": "claudebot",
-   "n": 46907,
-   "served": 39614,
-   "robotsBlocked": 2066,
-   "edgeBlocked": 6503
+   "n": 47019,
+   "served": 39702,
+   "robotsBlocked": 2067,
+   "edgeBlocked": 6526
   },
   {
    "id": "gptbot",
-   "n": 46907,
-   "served": 39809,
-   "robotsBlocked": 2583,
-   "edgeBlocked": 6190
+   "n": 47019,
+   "served": 39903,
+   "robotsBlocked": 2585,
+   "edgeBlocked": 6207
   },
   {
    "id": "oai-searchbot",
-   "n": 46907,
-   "served": 42124,
+   "n": 47019,
+   "served": 42232,
    "robotsBlocked": 823,
-   "edgeBlocked": 4490
+   "edgeBlocked": 4494
   },
   {
    "id": "perplexitybot",
-   "n": 46907,
-   "served": 42137,
-   "robotsBlocked": 1229,
-   "edgeBlocked": 4366
+   "n": 47019,
+   "served": 42241,
+   "robotsBlocked": 1230,
+   "edgeBlocked": 4374
   },
   {
    "id": "google-extended",
-   "n": 46907,
+   "n": 47019,
    "robotsOnly": true,
-   "robotsBlocked": 1765,
-   "allowed": 45142,
+   "robotsBlocked": 1766,
+   "allowed": 45253,
    "served": null,
    "edgeBlocked": null
   },
   {
    "id": "meta-externalagent",
-   "n": 18535,
-   "served": 15334,
+   "n": 18647,
+   "served": 15436,
    "robotsBlocked": 826,
-   "edgeBlocked": 2931
+   "edgeBlocked": 2941
   },
   {
    "id": "amazonbot",
-   "n": 18535,
-   "served": 14559,
-   "robotsBlocked": 897,
-   "edgeBlocked": 3652
+   "n": 18647,
+   "served": 14652,
+   "robotsBlocked": 900,
+   "edgeBlocked": 3669
   },
   {
    "id": "bytespider",
-   "n": 245,
-   "served": 181,
-   "robotsBlocked": 25,
-   "edgeBlocked": 54
+   "n": 357,
+   "served": 265,
+   "robotsBlocked": 28,
+   "edgeBlocked": 81
   },
   {
    "id": "applebot",
-   "n": 245,
-   "served": 215,
+   "n": 357,
+   "served": 317,
    "robotsBlocked": 5,
-   "edgeBlocked": 30
+   "edgeBlocked": 40
   },
   {
    "id": "applebot-extended",
-   "n": 245,
+   "n": 357,
    "robotsOnly": true,
-   "robotsBlocked": 16,
-   "allowed": 229,
+   "robotsBlocked": 17,
+   "allowed": 340,
    "served": null,
    "edgeBlocked": null
   }
  ],
  "perEdge": [
   {
-   "id": "Google",
-   "n": 619,
-   "allowedPairs": 2857,
-   "blockedPairs": 1245,
-   "pct": 0.4357717885894295
+   "id": "Akamai",
+   "n": 265,
+   "allowedPairs": 1233,
+   "blockedPairs": 526,
+   "pct": 0.42660178426601786
   },
   {
-   "id": "Akamai",
-   "n": 229,
-   "allowedPairs": 1021,
-   "blockedPairs": 425,
-   "pct": 0.41625857002938293
+   "id": "Google",
+   "n": 716,
+   "allowedPairs": 3410,
+   "blockedPairs": 1315,
+   "pct": 0.38563049853372433
+  },
+  {
+   "id": "Sucuri",
+   "n": 52,
+   "allowedPairs": 267,
+   "blockedPairs": 50,
+   "pct": 0.18726591760299627
   },
   {
    "id": "AWS CloudFront",
-   "n": 2239,
-   "allowedPairs": 10022,
-   "blockedPairs": 1555,
-   "pct": 0.15515865096787068
-  },
-  {
-   "id": "DDoS-Guard",
-   "n": 204,
-   "allowedPairs": 995,
-   "blockedPairs": 110,
-   "pct": 0.11055276381909548
+   "n": 2896,
+   "allowedPairs": 13707,
+   "blockedPairs": 2255,
+   "pct": 0.16451448165171081
   },
   {
    "id": "Cloudflare",
-   "n": 22417,
-   "allowedPairs": 94552,
-   "blockedPairs": 9995,
-   "pct": 0.1057090278365344
+   "n": 25219,
+   "allowedPairs": 111034,
+   "blockedPairs": 13973,
+   "pct": 0.12584433596916259
   },
   {
    "id": "no known edge",
-   "n": 8580,
-   "allowedPairs": 38843,
-   "blockedPairs": 4084,
-   "pct": 0.10514120948433438
+   "n": 11265,
+   "allowedPairs": 54260,
+   "blockedPairs": 5966,
+   "pct": 0.10995208256542573
+  },
+  {
+   "id": "DDoS-Guard",
+   "n": 264,
+   "allowedPairs": 1340,
+   "blockedPairs": 136,
+   "pct": 0.10149253731343283
   },
   {
    "id": "Azure Front Door",
-   "n": 208,
-   "allowedPairs": 925,
-   "blockedPairs": 82,
-   "pct": 0.08864864864864865
+   "n": 283,
+   "allowedPairs": 1343,
+   "blockedPairs": 117,
+   "pct": 0.08711839166046165
   },
   {
    "id": "Fastly",
-   "n": 1089,
-   "allowedPairs": 4606,
-   "blockedPairs": 355,
-   "pct": 0.07707338254450717
+   "n": 1335,
+   "allowedPairs": 5883,
+   "blockedPairs": 480,
+   "pct": 0.0815910249872514
   },
   {
    "id": "Varnish",
-   "n": 186,
-   "allowedPairs": 839,
-   "blockedPairs": 60,
-   "pct": 0.07151370679380215
+   "n": 253,
+   "allowedPairs": 1192,
+   "blockedPairs": 87,
+   "pct": 0.07298657718120806
   },
   {
    "id": "Alibaba",
-   "n": 65,
-   "allowedPairs": 327,
-   "blockedPairs": 22,
-   "pct": 0.0672782874617737
-  },
-  {
-   "id": "Qrator",
-   "n": 141,
-   "allowedPairs": 666,
-   "blockedPairs": 41,
-   "pct": 0.06156156156156156
-  },
-  {
-   "id": "Vercel",
-   "n": 421,
-   "allowedPairs": 1995,
-   "blockedPairs": 106,
-   "pct": 0.053132832080200504
+   "n": 77,
+   "allowedPairs": 399,
+   "blockedPairs": 23,
+   "pct": 0.05764411027568922
   },
   {
    "id": "BunnyCDN",
-   "n": 71,
-   "allowedPairs": 333,
-   "blockedPairs": 13,
-   "pct": 0.03903903903903904
+   "n": 97,
+   "allowedPairs": 487,
+   "blockedPairs": 28,
+   "pct": 0.057494866529774126
   },
   {
-   "id": "Netlify",
-   "n": 143,
-   "allowedPairs": 709,
-   "blockedPairs": 22,
-   "pct": 0.031029619181946404
+   "id": "Vercel",
+   "n": 533,
+   "allowedPairs": 2664,
+   "blockedPairs": 145,
+   "pct": 0.05442942942942943
+  },
+  {
+   "id": "Qrator",
+   "n": 169,
+   "allowedPairs": 836,
+   "blockedPairs": 45,
+   "pct": 0.05382775119617225
   },
   {
    "id": "Imperva",
-   "n": 113,
-   "allowedPairs": 540,
-   "blockedPairs": 13,
-   "pct": 0.024074074074074074
+   "n": 147,
+   "allowedPairs": 741,
+   "blockedPairs": 20,
+   "pct": 0.02699055330634278
+  },
+  {
+   "id": "Netlify",
+   "n": 188,
+   "allowedPairs": 972,
+   "blockedPairs": 22,
+   "pct": 0.02263374485596708
   }
  ],
- "edgeMeasured": 36786,
+ "edgeMeasured": 43793,
  "series": []
 }
