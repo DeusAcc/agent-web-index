@@ -1,100 +1,100 @@
 {
- "n": 47019,
- "measured": 86346,
+ "n": 47023,
+ "measured": 86350,
  "failed": 22482,
  "infra": 16230,
- "updatedAt": "2026-09-19T19:18:59.663Z",
+ "updatedAt": "2026-09-19T19:19:38.990Z",
  "meanScore": 73,
  "medianScore": 74,
  "grades": {
   "B": 9353,
-  "D": 7277,
+  "D": 7278,
   "C": 14900,
   "A+": 3198,
   "F": 2408,
-  "A": 9883
+  "A": 9886
  },
- "anyBlocked": 10558,
- "anyBlockedPct": 0.22454752334162786,
- "allOpen": 36461,
- "allOpenPct": 0.7754524766583721,
+ "anyBlocked": 10559,
+ "anyBlockedPct": 0.22454968845033282,
+ "allOpen": 36464,
+ "allOpenPct": 0.7754503115496671,
  "needsJs": 4466,
- "withLd": 20007,
- "withLlms": 17764,
+ "withLd": 20011,
+ "withLlms": 17765,
  "withSignal": 623,
  "medianTokens": 1186,
  "perBot": [
   {
    "id": "claudebot",
-   "n": 47019,
-   "served": 39702,
+   "n": 47023,
+   "served": 39705,
    "robotsBlocked": 2067,
-   "edgeBlocked": 6526
+   "edgeBlocked": 6527
   },
   {
    "id": "gptbot",
-   "n": 47019,
-   "served": 39903,
+   "n": 47023,
+   "served": 39906,
    "robotsBlocked": 2585,
-   "edgeBlocked": 6207
+   "edgeBlocked": 6208
   },
   {
    "id": "oai-searchbot",
-   "n": 47019,
-   "served": 42232,
+   "n": 47023,
+   "served": 42235,
    "robotsBlocked": 823,
-   "edgeBlocked": 4494
+   "edgeBlocked": 4495
   },
   {
    "id": "perplexitybot",
-   "n": 47019,
-   "served": 42241,
+   "n": 47023,
+   "served": 42244,
    "robotsBlocked": 1230,
-   "edgeBlocked": 4374
+   "edgeBlocked": 4375
   },
   {
    "id": "google-extended",
-   "n": 47019,
+   "n": 47023,
    "robotsOnly": true,
    "robotsBlocked": 1766,
-   "allowed": 45253,
+   "allowed": 45257,
    "served": null,
    "edgeBlocked": null
   },
   {
    "id": "meta-externalagent",
-   "n": 18647,
-   "served": 15436,
+   "n": 18651,
+   "served": 15439,
    "robotsBlocked": 826,
-   "edgeBlocked": 2941
+   "edgeBlocked": 2942
   },
   {
    "id": "amazonbot",
-   "n": 18647,
-   "served": 14652,
+   "n": 18651,
+   "served": 14655,
    "robotsBlocked": 900,
-   "edgeBlocked": 3669
+   "edgeBlocked": 3670
   },
   {
    "id": "bytespider",
-   "n": 357,
-   "served": 265,
+   "n": 361,
+   "served": 268,
    "robotsBlocked": 28,
-   "edgeBlocked": 81
+   "edgeBlocked": 82
   },
   {
    "id": "applebot",
-   "n": 357,
-   "served": 317,
+   "n": 361,
+   "served": 320,
    "robotsBlocked": 5,
-   "edgeBlocked": 40
+   "edgeBlocked": 41
   },
   {
    "id": "applebot-extended",
-   "n": 357,
+   "n": 361,
    "robotsOnly": true,
    "robotsBlocked": 17,
-   "allowed": 340,
+   "allowed": 344,
    "served": null,
    "edgeBlocked": null
   }
@@ -102,10 +102,10 @@
  "perEdge": [
   {
    "id": "Akamai",
-   "n": 265,
-   "allowedPairs": 1233,
-   "blockedPairs": 526,
-   "pct": 0.42660178426601786
+   "n": 266,
+   "allowedPairs": 1241,
+   "blockedPairs": 534,
+   "pct": 0.43029814665592264
   },
   {
    "id": "Google",
@@ -130,17 +130,17 @@
   },
   {
    "id": "Cloudflare",
-   "n": 25219,
-   "allowedPairs": 111034,
+   "n": 25220,
+   "allowedPairs": 111042,
    "blockedPairs": 13973,
-   "pct": 0.12584433596916259
+   "pct": 0.12583526953765242
   },
   {
    "id": "no known edge",
-   "n": 11265,
-   "allowedPairs": 54260,
+   "n": 11266,
+   "allowedPairs": 54268,
    "blockedPairs": 5966,
-   "pct": 0.10995208256542573
+   "pct": 0.10993587381145427
   },
   {
    "id": "DDoS-Guard",
@@ -158,10 +158,10 @@
   },
   {
    "id": "Fastly",
-   "n": 1335,
-   "allowedPairs": 5883,
+   "n": 1336,
+   "allowedPairs": 5891,
    "blockedPairs": 480,
-   "pct": 0.0815910249872514
+   "pct": 0.0814802240706162
   },
   {
    "id": "Varnish",
@@ -213,6 +213,6 @@
    "pct": 0.02263374485596708
   }
  ],
- "edgeMeasured": 43793,
+ "edgeMeasured": 43797,
  "series": []
 }
