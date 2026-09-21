@@ -1,100 +1,100 @@
 {
- "n": 47967,
+ "n": 47979,
  "measured": 87273,
- "failed": 22841,
- "infra": 15952,
- "updatedAt": "2026-09-21T12:34:59.049Z",
- "meanScore": 72.4,
+ "failed": 22829,
+ "infra": 15959,
+ "updatedAt": "2026-09-21T22:36:56.406Z",
+ "meanScore": 71.9,
  "medianScore": 74,
  "grades": {
-  "D": 9267,
-  "B": 9561,
-  "C": 13394,
-  "A+": 3191,
-  "F": 2396,
-  "A": 10158
+  "D": 9959,
+  "B": 9549,
+  "C": 12779,
+  "A+": 3171,
+  "F": 2399,
+  "A": 10122
  },
- "anyBlocked": 11977,
- "anyBlockedPct": 0.24969249692496925,
- "allOpen": 35990,
- "allOpenPct": 0.7503075030750308,
- "needsJs": 4476,
- "withLd": 20823,
- "withLlms": 13471,
- "withSignal": 597,
+ "anyBlocked": 12013,
+ "anyBlockedPct": 0.25038037474728525,
+ "allOpen": 35966,
+ "allOpenPct": 0.7496196252527147,
+ "needsJs": 4474,
+ "withLd": 20830,
+ "withLlms": 10221,
+ "withSignal": 596,
  "medianTokens": 1199,
  "perBot": [
   {
    "id": "claudebot",
-   "n": 47967,
-   "served": 40394,
-   "robotsBlocked": 2001,
-   "edgeBlocked": 6802
+   "n": 47979,
+   "served": 40398,
+   "robotsBlocked": 2000,
+   "edgeBlocked": 6810
   },
   {
    "id": "gptbot",
-   "n": 47967,
-   "served": 40598,
-   "robotsBlocked": 2524,
-   "edgeBlocked": 6481
+   "n": 47979,
+   "served": 40620,
+   "robotsBlocked": 2525,
+   "edgeBlocked": 6472
   },
   {
    "id": "oai-searchbot",
-   "n": 47967,
-   "served": 43102,
-   "robotsBlocked": 787,
-   "edgeBlocked": 4576
+   "n": 47979,
+   "served": 43106,
+   "robotsBlocked": 785,
+   "edgeBlocked": 4584
   },
   {
    "id": "perplexitybot",
-   "n": 47967,
-   "served": 43116,
-   "robotsBlocked": 1194,
-   "edgeBlocked": 4449
+   "n": 47979,
+   "served": 43120,
+   "robotsBlocked": 1193,
+   "edgeBlocked": 4457
   },
   {
    "id": "google-extended",
-   "n": 47967,
+   "n": 47979,
    "robotsOnly": true,
-   "robotsBlocked": 1694,
-   "allowed": 46273,
+   "robotsBlocked": 1696,
+   "allowed": 46283,
    "served": null,
    "edgeBlocked": null
   },
   {
    "id": "meta-externalagent",
-   "n": 39181,
-   "served": 34891,
-   "robotsBlocked": 1111,
-   "edgeBlocked": 3922
+   "n": 39196,
+   "served": 34905,
+   "robotsBlocked": 1115,
+   "edgeBlocked": 3921
   },
   {
    "id": "amazonbot",
-   "n": 39181,
-   "served": 33553,
-   "robotsBlocked": 1202,
+   "n": 39196,
+   "served": 33569,
+   "robotsBlocked": 1203,
    "edgeBlocked": 5189
   },
   {
    "id": "bytespider",
-   "n": 22205,
-   "served": 19431,
-   "robotsBlocked": 577,
-   "edgeBlocked": 2516
+   "n": 22225,
+   "served": 19448,
+   "robotsBlocked": 581,
+   "edgeBlocked": 2519
   },
   {
    "id": "applebot",
-   "n": 22205,
-   "served": 21257,
+   "n": 22225,
+   "served": 21270,
    "robotsBlocked": 88,
-   "edgeBlocked": 925
+   "edgeBlocked": 931
   },
   {
    "id": "applebot-extended",
-   "n": 22205,
+   "n": 22225,
    "robotsOnly": true,
-   "robotsBlocked": 375,
-   "allowed": 21830,
+   "robotsBlocked": 377,
+   "allowed": 21848,
    "served": null,
    "edgeBlocked": null
   }
@@ -102,146 +102,146 @@
  "perEdge": [
   {
    "id": "Akamai",
-   "n": 785,
-   "allowedPairs": 4352,
-   "blockedPairs": 1653,
+   "n": 788,
+   "allowedPairs": 4376,
+   "blockedPairs": 1666,
    "perCrawler": [
     {
      "id": "claudebot",
-     "allowed": 686,
-     "blocked": 262,
-     "pct": 0.3819241982507289,
-     "vsControl": 3.062024214447684
+     "allowed": 689,
+     "blocked": 263,
+     "pct": 0.38171262699564584,
+     "vsControl": 3.050271669627265
     },
     {
      "id": "gptbot",
-     "allowed": 644,
-     "blocked": 249,
-     "pct": 0.38664596273291924,
-     "vsControl": 3.405896054073803
+     "allowed": 647,
+     "blocked": 250,
+     "pct": 0.38639876352395675,
+     "vsControl": 3.387231007014624
     },
     {
      "id": "oai-searchbot",
-     "allowed": 754,
-     "blocked": 269,
-     "pct": 0.356763925729443,
-     "vsControl": 4.2425980357014845
+     "allowed": 757,
+     "blocked": 270,
+     "pct": 0.35667107001321,
+     "vsControl": 4.197147101827062
     },
     {
      "id": "perplexitybot",
-     "allowed": 709,
-     "blocked": 272,
-     "pct": 0.383638928067701,
-     "vsControl": 5.137008172192083
+     "allowed": 712,
+     "blocked": 273,
+     "pct": 0.38342696629213485,
+     "vsControl": 5.11250413086583
     },
     {
      "id": "meta-externalagent",
-     "allowed": 561,
-     "blocked": 210,
-     "pct": 0.37433155080213903,
-     "vsControl": 3.315616162817733
+     "allowed": 564,
+     "blocked": 211,
+     "pct": 0.374113475177305,
+     "vsControl": 3.310074568176619
     },
     {
      "id": "amazonbot",
-     "allowed": 524,
-     "blocked": 206,
-     "pct": 0.3931297709923664,
-     "vsControl": 2.9555780373402003
+     "allowed": 527,
+     "blocked": 207,
+     "pct": 0.3927893738140417,
+     "vsControl": 2.9417202461436576
     },
     {
      "id": "bytespider",
-     "allowed": 220,
-     "blocked": 92,
-     "pct": 0.41818181818181815,
-     "vsControl": 1.467304625199362
+     "allowed": 223,
+     "blocked": 96,
+     "pct": 0.4304932735426009,
+     "vsControl": 1.5048593862003434
     },
     {
      "id": "applebot",
-     "allowed": 254,
-     "blocked": 93,
-     "pct": 0.3661417322834646,
-     "vsControl": 5.182585872418122
+     "allowed": 257,
+     "blocked": 96,
+     "pct": 0.3735408560311284,
+     "vsControl": 5.125328024613157
     }
    ],
-   "pct": 0.3798253676470588,
+   "pct": 0.3807129798903108,
    "spread": {
     "topId": "bytespider",
-    "topPct": 0.41818181818181815,
+    "topPct": 0.4304932735426009,
     "bottomId": "oai-searchbot",
-    "bottomPct": 0.356763925729443,
-    "ratio": 1.172152754308888
+    "bottomPct": 0.35667107001321,
+    "ratio": 1.2069755854509219
    }
   },
   {
    "id": "Google",
-   "n": 784,
-   "allowedPairs": 4920,
-   "blockedPairs": 1631,
+   "n": 786,
+   "allowedPairs": 4934,
+   "blockedPairs": 1633,
    "perCrawler": [
     {
      "id": "claudebot",
-     "allowed": 753,
+     "allowed": 755,
      "blocked": 286,
-     "pct": 0.3798140770252324,
-     "vsControl": 3.0451066105946585
+     "pct": 0.37880794701986753,
+     "vsControl": 3.027060325771063
     },
     {
      "id": "gptbot",
-     "allowed": 743,
+     "allowed": 745,
      "blocked": 281,
-     "pct": 0.3781965006729475,
-     "vsControl": 3.3314662338690524
+     "pct": 0.37718120805369126,
+     "vsControl": 3.3064284976768197
     },
     {
      "id": "oai-searchbot",
-     "allowed": 770,
-     "blocked": 276,
-     "pct": 0.35844155844155845,
-     "vsControl": 4.262548262548263
+     "allowed": 772,
+     "blocked": 277,
+     "pct": 0.3588082901554404,
+     "vsControl": 4.222296961403832
     },
     {
      "id": "perplexitybot",
-     "allowed": 764,
-     "blocked": 266,
-     "pct": 0.3481675392670157,
-     "vsControl": 4.662038608842748
+     "allowed": 766,
+     "blocked": 267,
+     "pct": 0.34856396866840733,
+     "vsControl": 4.647651016622757
     },
     {
      "id": "meta-externalagent",
-     "allowed": 583,
-     "blocked": 254,
-     "pct": 0.43567753001715265,
-     "vsControl": 3.8589839868051135
+     "allowed": 584,
+     "blocked": 255,
+     "pct": 0.4366438356164384,
+     "vsControl": 3.863329581860363
     },
     {
      "id": "amazonbot",
-     "allowed": 604,
+     "allowed": 606,
      "blocked": 248,
-     "pct": 0.4105960264900662,
-     "vsControl": 3.0868906087927868
+     "pct": 0.40924092409240925,
+     "vsControl": 3.0649309584508497
     },
     {
      "id": "bytespider",
-     "allowed": 343,
-     "blocked": 17,
-     "pct": 0.04956268221574344,
-     "vsControl": 0.1739041481254156
+     "allowed": 344,
+     "blocked": 16,
+     "pct": 0.046511627906976744,
+     "vsControl": 0.16258897438114175
     },
     {
      "id": "applebot",
-     "allowed": 360,
+     "allowed": 362,
      "blocked": 3,
-     "pct": 0.008333333333333333,
-     "vsControl": 0.11795491143317231
+     "pct": 0.008287292817679558,
+     "vsControl": 0.11370936656816137
     }
    ],
-   "pct": 0.3315040650406504,
+   "pct": 0.3309687880016214,
    "spread": {
     "topId": "meta-externalagent",
-    "topPct": 0.43567753001715265,
+    "topPct": 0.4366438356164384,
     "bottomId": "applebot",
-    "bottomPct": 0.008333333333333333,
-    "ratio": 52.281303602058316
+    "bottomPct": 0.008287292817679558,
+    "ratio": 52.68835616438356
    }
   },
   {
@@ -255,28 +255,28 @@
      "allowed": 62,
      "blocked": 23,
      "pct": 0.3709677419354839,
-     "vsControl": 2.974182347670251
+     "vsControl": 2.9644091223220457
     },
     {
      "id": "gptbot",
      "allowed": 61,
      "blocked": 19,
      "pct": 0.3114754098360656,
-     "vsControl": 2.743731918997107
+     "vsControl": 2.730441361916772
     },
     {
      "id": "oai-searchbot",
      "allowed": 62,
      "blocked": 20,
      "pct": 0.3225806451612903,
-     "vsControl": 3.8360941586748036
+     "vsControl": 3.795986088510258
     },
     {
      "id": "perplexitybot",
      "allowed": 62,
      "blocked": 1,
      "pct": 0.016129032258064516,
-     "vsControl": 0.21597122830195603
+     "vsControl": 0.2150598452780616
     },
     {
      "id": "meta-externalagent",
@@ -318,714 +318,714 @@
   },
   {
    "id": "AWS CloudFront",
-   "n": 3134,
-   "allowedPairs": 17127,
-   "blockedPairs": 2831,
+   "n": 3135,
+   "allowedPairs": 17128,
+   "blockedPairs": 2847,
    "perCrawler": [
     {
      "id": "claudebot",
      "allowed": 2839,
-     "blocked": 468,
-     "pct": 0.16484677703416695,
-     "vsControl": 1.3216361394857343
+     "blocked": 471,
+     "pct": 0.16590348714336034,
+     "vsControl": 1.3257374027910682
     },
     {
      "id": "gptbot",
-     "allowed": 2743,
-     "blocked": 500,
-     "pct": 0.18228217280349981,
-     "vsControl": 1.6056914927837704
+     "allowed": 2744,
+     "blocked": 501,
+     "pct": 0.1825801749271137,
+     "vsControl": 1.60052590266876
     },
     {
      "id": "oai-searchbot",
-     "allowed": 3032,
+     "allowed": 3033,
      "blocked": 459,
-     "pct": 0.15138522427440634,
-     "vsControl": 1.8002567211010485
+     "pct": 0.1513353115727003,
+     "vsControl": 1.780846886034041
     },
     {
      "id": "perplexitybot",
      "allowed": 2938,
-     "blocked": 431,
-     "pct": 0.14669843430905377,
-     "vsControl": 1.9643237449574094
+     "blocked": 433,
+     "pct": 0.14737916950306332,
+     "vsControl": 1.965111166213357
     },
     {
      "id": "meta-externalagent",
      "allowed": 2127,
-     "blocked": 366,
-     "pct": 0.17207334273624825,
-     "vsControl": 1.5241278891501866
+     "blocked": 368,
+     "pct": 0.17301363422661026,
+     "vsControl": 1.5307869633134659
     },
     {
      "id": "amazonbot",
      "allowed": 2142,
-     "blocked": 374,
-     "pct": 0.1746031746031746,
-     "vsControl": 1.312679288582903
+     "blocked": 379,
+     "pct": 0.176937441643324,
+     "vsControl": 1.325138837970318
     },
     {
      "id": "bytespider",
-     "allowed": 613,
-     "blocked": 138,
-     "pct": 0.22512234910277323,
-     "vsControl": 0.7899029793079764
+     "allowed": 611,
+     "blocked": 140,
+     "pct": 0.22913256955810146,
+     "vsControl": 0.8009702338579978
     },
     {
      "id": "applebot",
-     "allowed": 693,
-     "blocked": 95,
-     "pct": 0.1370851370851371,
-     "vsControl": 1.9403838244417957
+     "allowed": 694,
+     "blocked": 96,
+     "pct": 0.138328530259366,
+     "vsControl": 1.8979961128610683
     }
    ],
-   "pct": 0.16529456413849478,
+   "pct": 0.1662190565156469,
    "spread": {
     "topId": "bytespider",
-    "topPct": 0.22512234910277323,
+    "topPct": 0.22913256955810146,
     "bottomId": "applebot",
-    "bottomPct": 0.1370851370851371,
-    "ratio": 1.6422082939812825
+    "bottomPct": 0.138328530259366,
+    "ratio": 1.6564375340971083
    }
   },
   {
    "id": "Azure Front Door",
    "n": 311,
    "allowedPairs": 1610,
-   "blockedPairs": 184,
+   "blockedPairs": 188,
    "perCrawler": [
     {
      "id": "claudebot",
      "allowed": 276,
      "blocked": 30,
      "pct": 0.10869565217391304,
-     "vsControl": 0.8714522946859904
+     "vsControl": 0.8685886842342477
     },
     {
      "id": "gptbot",
      "allowed": 273,
-     "blocked": 27,
-     "pct": 0.0989010989010989,
-     "vsControl": 0.8712023270846799
+     "blocked": 28,
+     "pct": 0.10256410256410256,
+     "vsControl": 0.8990927021696252
     },
     {
      "id": "oai-searchbot",
      "allowed": 287,
-     "blocked": 26,
-     "pct": 0.09059233449477352,
-     "vsControl": 1.0773142480459554
+     "blocked": 27,
+     "pct": 0.09407665505226481,
+     "vsControl": 1.1070523888791242
     },
     {
      "id": "perplexitybot",
      "allowed": 285,
-     "blocked": 27,
-     "pct": 0.09473684210526316,
-     "vsControl": 1.2685467936051733
+     "blocked": 28,
+     "pct": 0.09824561403508772,
+     "vsControl": 1.3099785663253156
     },
     {
      "id": "meta-externalagent",
      "allowed": 206,
      "blocked": 25,
      "pct": 0.12135922330097088,
-     "vsControl": 1.0749310375293275
+     "vsControl": 1.0737599827748199
     },
     {
      "id": "amazonbot",
      "allowed": 209,
-     "blocked": 16,
-     "pct": 0.07655502392344497,
-     "vsControl": 0.5755462039545742
+     "blocked": 15,
+     "pct": 0.07177033492822966,
+     "vsControl": 0.5375100789535079
     },
     {
      "id": "bytespider",
      "allowed": 36,
-     "blocked": 11,
+     "blocked": 12,
      "pct": null,
      "vsControl": null
     },
     {
      "id": "applebot",
      "allowed": 38,
-     "blocked": 22,
+     "blocked": 23,
      "pct": null,
      "vsControl": null
     }
    ],
-   "pct": 0.11428571428571428,
+   "pct": 0.11677018633540373,
    "spread": {
     "topId": "meta-externalagent",
     "topPct": 0.12135922330097088,
     "bottomId": "amazonbot",
-    "bottomPct": 0.07655502392344497,
-    "ratio": 1.5852548543689322
+    "bottomPct": 0.07177033492822966,
+    "ratio": 1.690938511326861
    }
   },
   {
    "id": "no known edge",
-   "n": 12171,
-   "allowedPairs": 69802,
-   "blockedPairs": 7766,
+   "n": 12187,
+   "allowedPairs": 69946,
+   "blockedPairs": 7825,
    "perCrawler": [
     {
      "id": "claudebot",
-     "allowed": 11545,
-     "blocked": 1440,
-     "pct": 0.12472932005197054
+     "allowed": 11563,
+     "blocked": 1447,
+     "pct": 0.12514053446337456
     },
     {
      "id": "gptbot",
-     "allowed": 11381,
-     "blocked": 1292,
-     "pct": 0.11352253756260434
+     "allowed": 11396,
+     "blocked": 1300,
+     "pct": 0.11407511407511407
     },
     {
      "id": "oai-searchbot",
-     "allowed": 11880,
-     "blocked": 999,
-     "pct": 0.08409090909090909
+     "allowed": 11897,
+     "blocked": 1011,
+     "pct": 0.08497940657308566
     },
     {
      "id": "perplexitybot",
-     "allowed": 11770,
-     "blocked": 879,
-     "pct": 0.07468139337298216
+     "allowed": 11787,
+     "blocked": 884,
+     "pct": 0.0749978790192585
     },
     {
      "id": "meta-externalagent",
-     "allowed": 8760,
-     "blocked": 989,
-     "pct": 0.11289954337899544
+     "allowed": 8777,
+     "blocked": 992,
+     "pct": 0.11302267289506665
     },
     {
      "id": "amazonbot",
-     "allowed": 8736,
-     "blocked": 1162,
-     "pct": 0.1330128205128205
+     "allowed": 8755,
+     "blocked": 1169,
+     "pct": 0.1335237007424329
     },
     {
      "id": "bytespider",
-     "allowed": 2800,
-     "blocked": 798,
-     "pct": 0.285
+     "allowed": 2821,
+     "blocked": 807,
+     "pct": 0.2860687699397377
     },
     {
      "id": "applebot",
-     "allowed": 2930,
-     "blocked": 207,
-     "pct": 0.07064846416382252
+     "allowed": 2950,
+     "blocked": 215,
+     "pct": 0.07288135593220339
     }
    ],
-   "pct": 0.11125755709005472,
+   "pct": 0.11187201555485661,
    "spread": {
     "topId": "bytespider",
-    "topPct": 0.285,
+    "topPct": 0.2860687699397377,
     "bottomId": "applebot",
-    "bottomPct": 0.07064846416382252,
-    "ratio": 4.034057971014493
+    "bottomPct": 0.07288135593220339,
+    "ratio": 3.9251296340568658
    }
   },
   {
    "id": "Cloudflare",
-   "n": 26801,
-   "allowedPairs": 185936,
-   "blockedPairs": 18967,
+   "n": 26788,
+   "allowedPairs": 185840,
+   "blockedPairs": 18906,
    "perCrawler": [
     {
      "id": "claudebot",
-     "allowed": 26198,
-     "blocked": 3939,
-     "pct": 0.1503549889304527,
-     "vsControl": 1.2054502411125532
+     "allowed": 26185,
+     "blocked": 3938,
+     "pct": 0.15039144548405575,
+     "vsControl": 1.2017804313283598
     },
     {
      "id": "gptbot",
-     "allowed": 26055,
-     "blocked": 3755,
-     "pct": 0.14411821147572443,
-     "vsControl": 1.269511892264102
+     "allowed": 26041,
+     "blocked": 3737,
+     "pct": 0.1435044737145271,
+     "vsControl": 1.2579822941928853
     },
     {
      "id": "oai-searchbot",
-     "allowed": 26669,
-     "blocked": 2249,
-     "pct": 0.0843301211144025,
-     "vsControl": 1.0028446835226243
+     "allowed": 26657,
+     "blocked": 2244,
+     "pct": 0.08418051543684586,
+     "vsControl": 0.9905990031178588
     },
     {
      "id": "perplexitybot",
-     "allowed": 26577,
-     "blocked": 2326,
-     "pct": 0.08751928359107498,
-     "vsControl": 1.1719021249908448
+     "allowed": 26564,
+     "blocked": 2323,
+     "pct": 0.08744917934046077,
+     "vsControl": 1.1660220326764832
     },
     {
      "id": "meta-externalagent",
-     "allowed": 23364,
-     "blocked": 1888,
-     "pct": 0.08080808080808081,
-     "vsControl": 0.7157520605447805
+     "allowed": 23352,
+     "blocked": 1880,
+     "pct": 0.08050702295306612,
+     "vsControl": 0.7123086093337312
     },
     {
      "id": "amazonbot",
-     "allowed": 23285,
-     "blocked": 2990,
-     "pct": 0.12840884689714407,
-     "vsControl": 0.9653869935399747
+     "allowed": 23273,
+     "blocked": 2980,
+     "pct": 0.12804537446826794,
+     "vsControl": 0.9589711321383113
     },
     {
      "id": "bytespider",
-     "allowed": 16818,
-     "blocked": 1355,
-     "pct": 0.08056843857771435,
-     "vsControl": 0.2826962757112785
+     "allowed": 16808,
+     "blocked": 1347,
+     "pct": 0.08014040932889101,
+     "vsControl": 0.2801438596242894
     },
     {
      "id": "applebot",
-     "allowed": 16970,
-     "blocked": 465,
-     "pct": 0.02740129640542133,
-     "vsControl": 0.3878540988786691
+     "allowed": 16960,
+     "blocked": 457,
+     "pct": 0.026945754716981133,
+     "vsControl": 0.3697208205353225
     }
    ],
-   "pct": 0.10200821788142156,
+   "pct": 0.10173267326732673,
    "spread": {
     "topId": "claudebot",
-    "topPct": 0.1503549889304527,
+    "topPct": 0.15039144548405575,
     "bottomId": "applebot",
-    "bottomPct": 0.02740129640542133,
-    "ratio": 5.4871487358059845
+    "bottomPct": 0.026945754716981133,
+    "ratio": 5.581266773325132
    }
   },
   {
    "id": "DDoS-Guard",
    "n": 304,
    "allowedPairs": 1743,
-   "blockedPairs": 169,
+   "blockedPairs": 168,
    "perCrawler": [
     {
      "id": "claudebot",
      "allowed": 300,
      "blocked": 32,
      "pct": 0.10666666666666667,
-     "vsControl": 0.8551851851851853
+     "vsControl": 0.8523750287952085
     },
     {
      "id": "gptbot",
      "allowed": 292,
-     "blocked": 37,
-     "pct": 0.1267123287671233,
-     "vsControl": 1.1161865431103948
+     "blocked": 36,
+     "pct": 0.1232876712328767,
+     "vsControl": 1.080758693361433
     },
     {
      "id": "oai-searchbot",
      "allowed": 301,
      "blocked": 27,
      "pct": 0.08970099667774087,
-     "vsControl": 1.0667145550866481
+     "vsControl": 1.0555615800940485
     },
     {
      "id": "perplexitybot",
      "allowed": 301,
      "blocked": 21,
      "pct": 0.06976744186046512,
-     "vsControl": 0.9342011270735773
+     "vsControl": 0.9302588656213827
     },
     {
      "id": "meta-externalagent",
      "allowed": 222,
      "blocked": 22,
      "pct": 0.0990990990990991,
-     "vsControl": 0.8777635066816057
+     "vsControl": 0.8768072507991863
     },
     {
      "id": "amazonbot",
      "allowed": 220,
      "blocked": 23,
      "pct": 0.10454545454545454,
-     "vsControl": 0.7859802847754654
+     "vsControl": 0.7829730150089431
     },
     {
      "id": "bytespider",
      "allowed": 53,
      "blocked": 5,
      "pct": 0.09433962264150944,
-     "vsControl": 0.33101621979477
+     "vsControl": 0.32977952350891965
     },
     {
      "id": "applebot",
      "allowed": 54,
      "blocked": 2,
      "pct": 0.037037037037037035,
-     "vsControl": 0.5242440508140992
+     "vsControl": 0.508182601205857
     }
    ],
-   "pct": 0.09695926563396443,
+   "pct": 0.0963855421686747,
    "spread": {
     "topId": "gptbot",
-    "topPct": 0.1267123287671233,
+    "topPct": 0.1232876712328767,
     "bottomId": "applebot",
     "bottomPct": 0.037037037037037035,
-    "ratio": 3.4212328767123292
-   }
-  },
-  {
-   "id": "Fastly",
-   "n": 1473,
-   "allowedPairs": 7692,
-   "blockedPairs": 640,
-   "perCrawler": [
-    {
-     "id": "claudebot",
-     "allowed": 1261,
-     "blocked": 140,
-     "pct": 0.11102299762093576,
-     "vsControl": 0.8901114635650718
-    },
-    {
-     "id": "gptbot",
-     "allowed": 1250,
-     "blocked": 131,
-     "pct": 0.1048,
-     "vsControl": 0.923164705882353
-    },
-    {
-     "id": "oai-searchbot",
-     "allowed": 1329,
-     "blocked": 89,
-     "pct": 0.06696764484574869,
-     "vsControl": 0.7963719927602546
-    },
-    {
-     "id": "perplexitybot",
-     "allowed": 1294,
-     "blocked": 79,
-     "pct": 0.061051004636785165,
-     "vsControl": 0.8174861485494441
-    },
-    {
-     "id": "meta-externalagent",
-     "allowed": 908,
-     "blocked": 74,
-     "pct": 0.08149779735682819,
-     "vsControl": 0.7218611778016328
-    },
-    {
-     "id": "amazonbot",
-     "allowed": 925,
-     "blocked": 73,
-     "pct": 0.07891891891891892,
-     "vsControl": 0.593318137414523
-    },
-    {
-     "id": "bytespider",
-     "allowed": 335,
-     "blocked": 34,
-     "pct": 0.10149253731343283,
-     "vsControl": 0.35611416601204504
-    },
-    {
-     "id": "applebot",
-     "allowed": 390,
-     "blocked": 20,
-     "pct": 0.05128205128205128,
-     "vsControl": 0.7258763780502911
-    }
-   ],
-   "pct": 0.08320332813312532,
-   "spread": {
-    "topId": "claudebot",
-    "topPct": 0.11102299762093576,
-    "bottomId": "applebot",
-    "bottomPct": 0.05128205128205128,
-    "ratio": 2.1649484536082473
+    "ratio": 3.328767123287671
    }
   },
   {
    "id": "Varnish",
    "n": 406,
    "allowedPairs": 2077,
-   "blockedPairs": 172,
+   "blockedPairs": 173,
    "perCrawler": [
     {
      "id": "claudebot",
      "allowed": 353,
      "blocked": 35,
      "pct": 0.09915014164305949,
-     "vsControl": 0.7949224897702235
+     "vsControl": 0.792310357856736
     },
     {
      "id": "gptbot",
      "allowed": 333,
      "blocked": 33,
      "pct": 0.0990990990990991,
-     "vsControl": 0.8729464758876523
+     "vsControl": 0.8687179487179487
     },
     {
      "id": "oai-searchbot",
      "allowed": 378,
      "blocked": 21,
      "pct": 0.05555555555555555,
-     "vsControl": 0.6606606606606606
+     "vsControl": 0.6537531596878777
     },
     {
      "id": "perplexitybot",
      "allowed": 361,
      "blocked": 22,
      "pct": 0.060941828254847646,
-     "vsControl": 0.8160242531963103
+     "vsControl": 0.8125806896378838
     },
     {
      "id": "meta-externalagent",
      "allowed": 262,
      "blocked": 22,
      "pct": 0.08396946564885496,
-     "vsControl": 0.7437538110050247
+     "vsControl": 0.7429435483870968
     },
     {
      "id": "amazonbot",
      "allowed": 258,
      "blocked": 25,
      "pct": 0.09689922480620156,
-     "vsControl": 0.7284953768562623
+     "vsControl": 0.7257080523338706
     },
     {
      "id": "bytespider",
      "allowed": 60,
-     "blocked": 10,
-     "pct": 0.16666666666666666,
-     "vsControl": 0.5847953216374269
+     "blocked": 9,
+     "pct": 0.15,
+     "vsControl": 0.5243494423791821
     },
     {
      "id": "applebot",
      "allowed": 72,
-     "blocked": 4,
-     "pct": 0.05555555555555555,
-     "vsControl": 0.7863660762211487
+     "blocked": 6,
+     "pct": 0.08333333333333333,
+     "vsControl": 1.143410852713178
     }
    ],
-   "pct": 0.08281174771304767,
+   "pct": 0.08329321136254213,
    "spread": {
     "topId": "bytespider",
-    "topPct": 0.16666666666666666,
-    "bottomId": "applebot",
+    "topPct": 0.15,
+    "bottomId": "oai-searchbot",
     "bottomPct": 0.05555555555555555,
-    "ratio": 3
+    "ratio": 2.7
    }
   },
   {
-   "id": "Qrator",
-   "n": 186,
-   "allowedPairs": 1083,
-   "blockedPairs": 81,
+   "id": "Fastly",
+   "n": 1474,
+   "allowedPairs": 7699,
+   "blockedPairs": 632,
    "perCrawler": [
     {
      "id": "claudebot",
-     "allowed": 183,
-     "blocked": 10,
-     "pct": 0.0546448087431694,
-     "vsControl": 0.43810716454159077
+     "allowed": 1262,
+     "blocked": 138,
+     "pct": 0.10935023771790808,
+     "vsControl": 0.8738194877209199
     },
     {
      "id": "gptbot",
-     "allowed": 176,
-     "blocked": 21,
-     "pct": 0.11931818181818182,
-     "vsControl": 1.051052807486631
+     "allowed": 1252,
+     "blocked": 130,
+     "pct": 0.10383386581469649,
+     "vsControl": 0.910223642172524
     },
     {
      "id": "oai-searchbot",
-     "allowed": 185,
-     "blocked": 14,
-     "pct": 0.07567567567567568,
-     "vsControl": 0.8999269539810081
+     "allowed": 1330,
+     "blocked": 87,
+     "pct": 0.06541353383458647,
+     "vsControl": 0.7697574797527944
     },
     {
      "id": "perplexitybot",
-     "allowed": 185,
-     "blocked": 7,
-     "pct": 0.03783783783783784,
-     "vsControl": 0.5066568274759401
+     "allowed": 1296,
+     "blocked": 79,
+     "pct": 0.06095679012345679,
+     "vsControl": 0.8127801868610692
     },
     {
      "id": "meta-externalagent",
-     "allowed": 126,
-     "blocked": 12,
-     "pct": 0.09523809523809523,
-     "vsControl": 0.8435649284992055
+     "allowed": 908,
+     "blocked": 74,
+     "pct": 0.08149779735682819,
+     "vsControl": 0.7210747655250817
     },
     {
      "id": "amazonbot",
-     "allowed": 125,
-     "blocked": 8,
-     "pct": 0.064,
-     "vsControl": 0.4811566265060241
+     "allowed": 925,
+     "blocked": 72,
+     "pct": 0.07783783783783783,
+     "vsControl": 0.5829514715742261
     },
     {
      "id": "bytespider",
-     "allowed": 51,
-     "blocked": 6,
-     "pct": 0.11764705882352941,
-     "vsControl": 0.412796697626419
+     "allowed": 335,
+     "blocked": 33,
+     "pct": 0.09850746268656717,
+     "vsControl": 0.34434888753259724
     },
     {
      "id": "applebot",
-     "allowed": 52,
-     "blocked": 3,
-     "pct": 0.057692307692307696,
-     "vsControl": 0.8166109253065776
+     "allowed": 391,
+     "blocked": 19,
+     "pct": 0.04859335038363171,
+     "vsControl": 0.666745970380063
     }
    ],
-   "pct": 0.07479224376731301,
+   "pct": 0.08208858293284842,
    "spread": {
-    "topId": "gptbot",
-    "topPct": 0.11931818181818182,
-    "bottomId": "perplexitybot",
-    "bottomPct": 0.03783783783783784,
-    "ratio": 3.153409090909091
+    "topId": "claudebot",
+    "topPct": 0.10935023771790808,
+    "bottomId": "applebot",
+    "bottomPct": 0.04859335038363171,
+    "ratio": 2.250312786721161
    }
   },
   {
    "id": "Alibaba",
-   "n": 91,
-   "allowedPairs": 519,
+   "n": 92,
+   "allowedPairs": 527,
    "blockedPairs": 36,
    "perCrawler": [
     {
      "id": "claudebot",
-     "allowed": 91,
+     "allowed": 92,
      "blocked": 4,
-     "pct": 0.04395604395604396,
-     "vsControl": 0.35241147741147744
+     "pct": 0.043478260869565216,
+     "vsControl": 0.3474354736936991
     },
     {
      "id": "gptbot",
-     "allowed": 90,
+     "allowed": 91,
      "blocked": 6,
-     "pct": 0.06666666666666667,
-     "vsControl": 0.5872549019607843
+     "pct": 0.06593406593406594,
+     "vsControl": 0.5779881656804734
     },
     {
      "id": "oai-searchbot",
-     "allowed": 91,
+     "allowed": 92,
      "blocked": 4,
-     "pct": 0.04395604395604396,
-     "vsControl": 0.5227205227205227
+     "pct": 0.043478260869565216,
+     "vsControl": 0.5116329075818173
     },
     {
      "id": "perplexitybot",
-     "allowed": 91,
+     "allowed": 92,
      "blocked": 4,
-     "pct": 0.04395604395604396,
-     "vsControl": 0.5885809298778583
+     "pct": 0.043478260869565216,
+     "vsControl": 0.5797265394452096
     },
     {
      "id": "meta-externalagent",
-     "allowed": 64,
+     "allowed": 65,
      "blocked": 4,
-     "pct": 0.0625,
-     "vsControl": 0.5535894843276036
+     "pct": 0.06153846153846154,
+     "vsControl": 0.5444789081885857
     },
     {
      "id": "amazonbot",
-     "allowed": 64,
+     "allowed": 65,
      "blocked": 5,
-     "pct": 0.078125,
-     "vsControl": 0.5873493975903614
+     "pct": 0.07692307692307693,
+     "vsControl": 0.5761005461604265
     },
     {
      "id": "bytespider",
-     "allowed": 14,
+     "allowed": 15,
      "blocked": 9,
      "pct": null,
      "vsControl": null
     },
     {
      "id": "applebot",
-     "allowed": 14,
+     "allowed": 15,
      "blocked": 0,
      "pct": null,
      "vsControl": null
     }
    ],
-   "pct": 0.06936416184971098,
+   "pct": 0.0683111954459203,
    "spread": {
     "topId": "amazonbot",
-    "topPct": 0.078125,
+    "topPct": 0.07692307692307693,
     "bottomId": "perplexitybot",
-    "bottomPct": 0.04395604395604396,
-    "ratio": 1.7773437499999998
+    "bottomPct": 0.043478260869565216,
+    "ratio": 1.7692307692307694
+   }
+  },
+  {
+   "id": "Qrator",
+   "n": 186,
+   "allowedPairs": 1085,
+   "blockedPairs": 73,
+   "perCrawler": [
+    {
+     "id": "claudebot",
+     "allowed": 183,
+     "blocked": 9,
+     "pct": 0.04918032786885246,
+     "vsControl": 0.39300078171910224
+    },
+    {
+     "id": "gptbot",
+     "allowed": 176,
+     "blocked": 20,
+     "pct": 0.11363636363636363,
+     "vsControl": 0.9961538461538462
+    },
+    {
+     "id": "oai-searchbot",
+     "allowed": 185,
+     "blocked": 13,
+     "pct": 0.07027027027027027,
+     "vsControl": 0.826909401983586
+    },
+    {
+     "id": "perplexitybot",
+     "allowed": 185,
+     "blocked": 7,
+     "pct": 0.03783783783783784,
+     "vsControl": 0.5045187721658311
+    },
+    {
+     "id": "meta-externalagent",
+     "allowed": 126,
+     "blocked": 11,
+     "pct": 0.0873015873015873,
+     "vsControl": 0.7724254352278546
+    },
+    {
+     "id": "amazonbot",
+     "allowed": 125,
+     "blocked": 6,
+     "pct": 0.048,
+     "vsControl": 0.3594867408041061
+    },
+    {
+     "id": "bytespider",
+     "allowed": 52,
+     "blocked": 5,
+     "pct": 0.09615384615384616,
+     "vsControl": 0.3361214374225527
+    },
+    {
+     "id": "applebot",
+     "allowed": 53,
+     "blocked": 2,
+     "pct": 0.03773584905660377,
+     "vsControl": 0.5177709521720052
+    }
+   ],
+   "pct": 0.06728110599078341,
+   "spread": {
+    "topId": "gptbot",
+    "topPct": 0.11363636363636363,
+    "bottomId": "applebot",
+    "bottomPct": 0.03773584905660377,
+    "ratio": 3.0113636363636362
    }
   },
   {
    "id": "Vercel",
-   "n": 585,
-   "allowedPairs": 3485,
+   "n": 587,
+   "allowedPairs": 3501,
    "blockedPairs": 197,
    "perCrawler": [
     {
      "id": "claudebot",
-     "allowed": 576,
+     "allowed": 578,
      "blocked": 33,
-     "pct": 0.057291666666666664,
-     "vsControl": 0.45932798032407407
+     "pct": 0.05709342560553633,
+     "vsControl": 0.45623447151127616
     },
     {
      "id": "gptbot",
-     "allowed": 570,
+     "allowed": 572,
      "blocked": 34,
-     "pct": 0.05964912280701754,
-     "vsControl": 0.525438596491228
+     "pct": 0.05944055944055944,
+     "vsControl": 0.5210650887573964
     },
     {
      "id": "oai-searchbot",
-     "allowed": 584,
+     "allowed": 586,
      "blocked": 29,
-     "pct": 0.04965753424657534,
-     "vsControl": 0.5905220288781933
+     "pct": 0.04948805460750853,
+     "vsControl": 0.582353497196369
     },
     {
      "id": "perplexitybot",
-     "allowed": 582,
+     "allowed": 584,
      "blocked": 30,
-     "pct": 0.05154639175257732,
-     "vsControl": 0.6902173275629523
+     "pct": 0.05136986301369863,
+     "vsControl": 0.6849508770842373
     },
     {
      "id": "meta-externalagent",
-     "allowed": 431,
+     "allowed": 433,
      "blocked": 24,
-     "pct": 0.05568445475638051,
-     "vsControl": 0.49322125749837537
+     "pct": 0.05542725173210162,
+     "vsControl": 0.49040825448856445
     },
     {
      "id": "amazonbot",
-     "allowed": 431,
+     "allowed": 433,
      "blocked": 26,
-     "pct": 0.060324825986078884,
-     "vsControl": 0.45352640259413524
+     "pct": 0.06004618937644342,
+     "vsControl": 0.44970435243007884
     },
     {
      "id": "bytespider",
-     "allowed": 154,
+     "allowed": 156,
      "blocked": 13,
-     "pct": 0.08441558441558442,
-     "vsControl": 0.29619503303713834
+     "pct": 0.08333333333333333,
+     "vsControl": 0.2913052457662123
     },
     {
      "id": "applebot",
-     "allowed": 157,
+     "allowed": 159,
      "blocked": 8,
-     "pct": 0.050955414012738856,
-     "vsControl": 0.7212529616295887
+     "pct": 0.050314465408805034,
+     "vsControl": 0.6903612695626737
     }
    ],
-   "pct": 0.056527977044476325,
+   "pct": 0.056269637246501,
    "spread": {
     "topId": "bytespider",
-    "topPct": 0.08441558441558442,
+    "topPct": 0.08333333333333333,
     "bottomId": "oai-searchbot",
-    "bottomPct": 0.04965753424657534,
-    "ratio": 1.6999552171965966
+    "bottomPct": 0.04948805460750853,
+    "ratio": 1.6839080459770113
    }
   },
   {
@@ -1039,42 +1039,42 @@
      "allowed": 106,
      "blocked": 5,
      "pct": 0.04716981132075472,
-     "vsControl": 0.37817741090146756
+     "vsControl": 0.376934712026183
     },
     {
      "id": "gptbot",
      "allowed": 104,
      "blocked": 5,
      "pct": 0.04807692307692308,
-     "vsControl": 0.42350113122171945
+     "vsControl": 0.4214497041420119
     },
     {
      "id": "oai-searchbot",
      "allowed": 109,
      "blocked": 6,
      "pct": 0.05504587155963303,
-     "vsControl": 0.6545995536821225
+     "vsControl": 0.6477554242778972
     },
     {
      "id": "perplexitybot",
      "allowed": 109,
      "blocked": 3,
      "pct": 0.027522935779816515,
-     "vsControl": 0.36853805930425526
+     "vsControl": 0.3669828552451327
     },
     {
      "id": "meta-externalagent",
      "allowed": 81,
      "blocked": 5,
      "pct": 0.06172839506172839,
-     "vsControl": 0.546755046249485
+     "vsControl": 0.5461593986459577
     },
     {
      "id": "amazonbot",
      "allowed": 82,
      "blocked": 4,
      "pct": 0.04878048780487805,
-     "vsControl": 0.3667352336173964
+     "vsControl": 0.36533205366270943
     },
     {
      "id": "bytespider",
@@ -1101,6 +1101,78 @@
    }
   },
   {
+   "id": "Imperva",
+   "n": 162,
+   "allowedPairs": 901,
+   "blockedPairs": 31,
+   "perCrawler": [
+    {
+     "id": "claudebot",
+     "allowed": 157,
+     "blocked": 6,
+     "pct": 0.03821656050955414,
+     "vsControl": 0.3053891424823597
+    },
+    {
+     "id": "gptbot",
+     "allowed": 153,
+     "blocked": 4,
+     "pct": 0.026143790849673203,
+     "vsControl": 0.22918049270990448
+    },
+    {
+     "id": "oai-searchbot",
+     "allowed": 158,
+     "blocked": 3,
+     "pct": 0.0189873417721519,
+     "vsControl": 0.2234346241971228
+    },
+    {
+     "id": "perplexitybot",
+     "allowed": 158,
+     "blocked": 2,
+     "pct": 0.012658227848101266,
+     "vsControl": 0.16878114439544076
+    },
+    {
+     "id": "meta-externalagent",
+     "allowed": 114,
+     "blocked": 4,
+     "pct": 0.03508771929824561,
+     "vsControl": 0.31044850028296544
+    },
+    {
+     "id": "amazonbot",
+     "allowed": 114,
+     "blocked": 5,
+     "pct": 0.043859649122807015,
+     "vsControl": 0.32847838158269926
+    },
+    {
+     "id": "bytespider",
+     "allowed": 23,
+     "blocked": 6,
+     "pct": null,
+     "vsControl": null
+    },
+    {
+     "id": "applebot",
+     "allowed": 24,
+     "blocked": 1,
+     "pct": null,
+     "vsControl": null
+    }
+   ],
+   "pct": 0.03440621531631521,
+   "spread": {
+    "topId": "amazonbot",
+    "topPct": 0.043859649122807015,
+    "bottomId": "perplexitybot",
+    "bottomPct": 0.012658227848101266,
+    "ratio": 3.4649122807017543
+   }
+  },
+  {
    "id": "Netlify",
    "n": 195,
    "allowedPairs": 1207,
@@ -1111,56 +1183,56 @@
      "allowed": 193,
      "blocked": 6,
      "pct": 0.031088082901554404,
-     "vsControl": 0.24924438687392056
+     "vsControl": 0.24842536461000247
     },
     {
      "id": "gptbot",
      "allowed": 191,
      "blocked": 6,
      "pct": 0.031413612565445025,
-     "vsControl": 0.2767169695103172
+     "vsControl": 0.2753765606121627
     },
     {
      "id": "oai-searchbot",
      "allowed": 194,
      "blocked": 6,
      "pct": 0.030927835051546393,
-     "vsControl": 0.3677904708832544
+     "vsControl": 0.36394505797057114
     },
     {
      "id": "perplexitybot",
      "allowed": 195,
      "blocked": 6,
      "pct": 0.03076923076923077,
-     "vsControl": 0.4120066509145008
+     "vsControl": 0.410268012530456
     },
     {
      "id": "meta-externalagent",
      "allowed": 161,
      "blocked": 3,
      "pct": 0.018633540372670808,
-     "vsControl": 0.16504531209767065
+     "vsControl": 0.16486550791424565
     },
     {
      "id": "amazonbot",
      "allowed": 160,
      "blocked": 3,
      "pct": 0.01875,
-     "vsControl": 0.14096385542168674
+     "vsControl": 0.14042450812660393
     },
     {
      "id": "bytespider",
      "allowed": 56,
      "blocked": 4,
      "pct": 0.07142857142857142,
-     "vsControl": 0.2506265664160401
+     "vsControl": 0.2496902106567534
     },
     {
      "id": "applebot",
      "allowed": 57,
      "blocked": 3,
      "pct": 0.05263157894736842,
-     "vsControl": 0.744978387998983
+     "vsControl": 0.7221542227662178
     }
    ],
    "pct": 0.030654515327257662,
@@ -1171,88 +1243,16 @@
     "bottomPct": 0.018633540372670808,
     "ratio": 3.833333333333333
    }
-  },
-  {
-   "id": "Imperva",
-   "n": 163,
-   "allowedPairs": 909,
-   "blockedPairs": 25,
-   "perCrawler": [
-    {
-     "id": "claudebot",
-     "allowed": 158,
-     "blocked": 5,
-     "pct": 0.03164556962025317,
-     "vsControl": 0.25371395921237694
-    },
-    {
-     "id": "gptbot",
-     "allowed": 154,
-     "blocked": 3,
-     "pct": 0.01948051948051948,
-     "vsControl": 0.17160045836516424
-    },
-    {
-     "id": "oai-searchbot",
-     "allowed": 159,
-     "blocked": 2,
-     "pct": 0.012578616352201259,
-     "vsControl": 0.14958354580996092
-    },
-    {
-     "id": "perplexitybot",
-     "allowed": 159,
-     "blocked": 1,
-     "pct": 0.006289308176100629,
-     "vsControl": 0.08421519594164324
-    },
-    {
-     "id": "meta-externalagent",
-     "allowed": 115,
-     "blocked": 3,
-     "pct": 0.02608695652173913,
-     "vsControl": 0.2310634369367389
-    },
-    {
-     "id": "amazonbot",
-     "allowed": 115,
-     "blocked": 4,
-     "pct": 0.034782608695652174,
-     "vsControl": 0.2614981665793609
-    },
-    {
-     "id": "bytespider",
-     "allowed": 24,
-     "blocked": 7,
-     "pct": null,
-     "vsControl": null
-    },
-    {
-     "id": "applebot",
-     "allowed": 25,
-     "blocked": 0,
-     "pct": null,
-     "vsControl": null
-    }
-   ],
-   "pct": 0.027502750275027504,
-   "spread": {
-    "topId": "amazonbot",
-    "topPct": 0.034782608695652174,
-    "bottomId": "perplexitybot",
-    "bottomPct": 0.006289308176100629,
-    "ratio": 5.530434782608696
-   }
   }
  ],
- "edgeMeasured": 47599,
+ "edgeMeasured": 47611,
  "series": [
   {
    "day": "2026-09-21",
-   "n": 12088,
-   "meanDelta": -2.56,
-   "opened": 316,
-   "closed": 4637
+   "n": 20259,
+   "meanDelta": -2.7,
+   "opened": 462,
+   "closed": 8030
   }
  ]
 }
