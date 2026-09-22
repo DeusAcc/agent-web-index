@@ -1,6 +1,6 @@
 # Agent Web Index — how much of the web can AI assistants actually read?
 
-**47,979 domains measured live. 25% of them cannot be read by at least one of
+**48,154 domains measured live. 25% of them cannot be read by at least one of
 ChatGPT, Claude, Perplexity or Gemini.** Updated daily. Live index: <https://shop.lumnika.com/ai-readiness/>
 
 Every row here is the result of real HTTP requests, not an estimate and not a re-publication of
@@ -15,14 +15,14 @@ this by making the request as that crawler, which is why no robots.txt study rep
 
 | Crawler | Domains measured | Served | robots.txt says no | Server says no anyway |
 |---|---|---|---|---|
-| claudebot | 47,979 | 84% | 2,000 | 6,810 |
-| gptbot | 47,979 | 85% | 2,525 | 6,472 |
-| oai-searchbot | 47,979 | 90% | 785 | 4,584 |
-| perplexitybot | 47,979 | 90% | 1,193 | 4,457 |
-| meta-externalagent | 39,196 | 89% | 1,115 | 3,921 |
-| amazonbot | 39,196 | 86% | 1,203 | 5,189 |
-| bytespider | 22,225 | 88% | 581 | 2,519 |
-| applebot | 22,225 | 96% | 88 | 931 |
+| claudebot | 48,154 | 84% | 2,001 | 6,800 |
+| gptbot | 48,154 | 85% | 2,526 | 6,464 |
+| oai-searchbot | 48,154 | 90% | 783 | 4,570 |
+| perplexitybot | 48,154 | 90% | 1,194 | 4,453 |
+| meta-externalagent | 39,409 | 89% | 1,119 | 3,923 |
+| amazonbot | 39,409 | 86% | 1,208 | 5,187 |
+| bytespider | 22,438 | 88% | 585 | 2,520 |
+| applebot | 22,438 | 96% | 87 | 932 |
 
 Broken down by whoever answers in front of the site (read from the response headers of the same
 request: `cf-ray`, `akamai-grn`, `x-amz-cf-id`, `x-fastly-request-id`…). Unit: one domain ×
@@ -32,15 +32,15 @@ contradicts the site's own stated policy, and is almost always an edge default n
 | Edge in front of the site | Domains | Requests robots.txt allows | Refused anyway |
 |---|---|---|---|
 | Akamai | 788 | 4,376 | 38% |
-| Google | 786 | 4,934 | 33% |
-| Sucuri | 63 | 385 | 21% |
-| AWS CloudFront | 3,135 | 17,128 | 17% |
-| Azure Front Door | 311 | 1,610 | 12% |
-| no known edge | 12,187 | 69,946 | 11% |
-| Cloudflare | 26,788 | 185,840 | 10% |
-| DDoS-Guard | 304 | 1,743 | 10% |
-| Varnish | 406 | 2,077 | 8% |
-| Fastly | 1,474 | 7,699 | 8% |
+| Google | 791 | 4,978 | 33% |
+| Sucuri | 64 | 393 | 21% |
+| AWS CloudFront | 3,141 | 17,208 | 16% |
+| Azure Front Door | 311 | 1,611 | 11% |
+| no known edge | 12,212 | 70,190 | 11% |
+| Cloudflare | 26,923 | 186,953 | 10% |
+| DDoS-Guard | 304 | 1,747 | 10% |
+| Varnish | 408 | 2,101 | 8% |
+| Fastly | 1,475 | 7,710 | 8% |
 
 `no known edge` is an upper bound, not a vendor: response headers are not kept, so a domain read before a signature was
 added to the table stays in that bucket until it is re-requested (a 250-domain sample on 19 Sep 2026: 14% already carry a
@@ -62,15 +62,15 @@ signature the current table recognises). A weekly pass re-reads them, so the nam
 - `Google-Extended` and `Applebot-Extended` never make requests — they are robots.txt opt-out
   tokens — so for those only robots.txt is reported and no "served" verdict exists.
 - Domains that answer with HTTP 429 are excluded from that pass rather than counted as blocking.
-- 15,959 measured hosts are infrastructure (CDNs, telemetry, resolvers) rather than
-  sites and are counted apart; 22,829 failed to answer and are excluded from every
+- 15,947 measured hosts are infrastructure (CDNs, telemetry, resolvers) rather than
+  sites and are counted apart; 22,667 failed to answer and are excluded from every
   percentage.
 - Blocking AI crawlers is a legitimate choice, not a failure. This dataset records what is true,
   not what should be.
 
 ## Citing
 
-> Agent Web Index, 2026-09-21. 47,979 domains. <https://shop.lumnika.com/ai-readiness/>
+> Agent Web Index, 2026-09-22. 48,154 domains. <https://shop.lumnika.com/ai-readiness/>
 
 Licence: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — use it, say where it came from.
 
