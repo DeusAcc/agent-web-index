@@ -1,6 +1,6 @@
 # Agent Web Index — how much of the web can AI assistants actually read?
 
-**50,413 domains measured live. 26% of them cannot be read by at least one of
+**50,414 domains measured live. 26% of them cannot be read by at least one of
 ChatGPT, Claude, Perplexity or Gemini.** Updated daily. Live index: <https://shop.lumnika.com/ai-readiness/>
 
 Every row here is the result of real HTTP requests, not an estimate and not a re-publication of
@@ -15,14 +15,14 @@ this by making the request as that crawler, which is why no robots.txt study rep
 
 | Crawler | Domains measured | Served | robots.txt says no | Server says no anyway |
 |---|---|---|---|---|
-| claudebot | 50,413 | 84% | 2,051 | 7,209 |
-| gptbot | 50,413 | 85% | 2,605 | 6,869 |
-| oai-searchbot | 50,413 | 90% | 794 | 4,748 |
-| perplexitybot | 50,413 | 90% | 1,209 | 4,612 |
-| meta-externalagent | 41,672 | 89% | 1,163 | 4,203 |
-| amazonbot | 41,672 | 85% | 1,265 | 5,590 |
-| bytespider | 24,963 | 86% | 666 | 3,236 |
-| applebot | 24,963 | 95% | 101 | 1,110 |
+| claudebot | 50,414 | 84% | 2,051 | 7,208 |
+| gptbot | 50,414 | 85% | 2,605 | 6,870 |
+| oai-searchbot | 50,414 | 90% | 794 | 4,748 |
+| perplexitybot | 50,414 | 90% | 1,209 | 4,612 |
+| meta-externalagent | 41,673 | 89% | 1,163 | 4,203 |
+| amazonbot | 41,673 | 85% | 1,265 | 5,591 |
+| bytespider | 24,964 | 86% | 666 | 3,236 |
+| applebot | 24,964 | 95% | 101 | 1,112 |
 
 Broken down by whoever answers in front of the site (read from the response headers of the same
 request: `cf-ray`, `akamai-grn`, `x-amz-cf-id`, `x-fastly-request-id`…). Unit: one domain ×
@@ -37,7 +37,7 @@ contradicts the site's own stated policy, and is almost always an edge default n
 | AWS CloudFront | 3,207 | 17,777 | 16% |
 | no known edge | 12,855 | 75,324 | 11% |
 | Azure Front Door | 314 | 1,639 | 10% |
-| Cloudflare | 28,338 | 198,335 | 10% |
+| Cloudflare | 28,339 | 198,343 | 10% |
 | DDoS-Guard | 311 | 1,802 | 10% |
 | Fastly | 1,541 | 8,245 | 9% |
 | Varnish | 419 | 2,195 | 9% |
@@ -70,7 +70,7 @@ signature the current table recognises). A weekly pass re-reads them, so the nam
 
 ## Citing
 
-> Agent Web Index, 2026-10-11. 50,413 domains. <https://shop.lumnika.com/ai-readiness/>
+> Agent Web Index, 2026-10-12. 50,414 domains. <https://shop.lumnika.com/ai-readiness/>
 
 Licence: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — use it, say where it came from.
 
