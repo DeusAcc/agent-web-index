@@ -35,7 +35,7 @@ contradicts the site's own stated policy, and is almost always an edge default n
 | Google | 805 | 5,093 | 33% |
 | Sucuri | 78 | 506 | 22% |
 | AWS CloudFront | 3,207 | 17,777 | 16% |
-| no known edge | 12,855 | 75,324 | 11% |
+| no known edge | 12,856 | 75,328 | 11% |
 | Azure Front Door | 314 | 1,639 | 10% |
 | Cloudflare | 28,339 | 198,343 | 10% |
 | DDoS-Guard | 311 | 1,802 | 10% |
@@ -70,7 +70,7 @@ signature the current table recognises). A weekly pass re-reads them, so the nam
 
 ## Citing
 
-> Agent Web Index, 2026-10-12. 50,414 domains. <https://shop.lumnika.com/ai-readiness/>
+> Agent Web Index, 2026-10-13. 50,414 domains. <https://shop.lumnika.com/ai-readiness/>
 
 Licence: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — use it, say where it came from.
 
