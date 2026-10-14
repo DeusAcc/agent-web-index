@@ -17,11 +17,11 @@ this by making the request as that crawler, which is why no robots.txt study rep
 |---|---|---|---|---|
 | claudebot | 50,414 | 84% | 2,051 | 7,208 |
 | gptbot | 50,414 | 85% | 2,605 | 6,870 |
-| oai-searchbot | 50,414 | 90% | 794 | 4,748 |
-| perplexitybot | 50,414 | 90% | 1,209 | 4,612 |
-| meta-externalagent | 41,673 | 89% | 1,163 | 4,203 |
-| amazonbot | 41,673 | 85% | 1,265 | 5,591 |
-| bytespider | 24,964 | 86% | 666 | 3,236 |
+| oai-searchbot | 50,414 | 90% | 794 | 4,746 |
+| perplexitybot | 50,414 | 90% | 1,209 | 4,613 |
+| meta-externalagent | 41,673 | 89% | 1,163 | 4,204 |
+| amazonbot | 41,673 | 85% | 1,265 | 5,590 |
+| bytespider | 24,964 | 86% | 666 | 3,235 |
 | applebot | 24,964 | 95% | 101 | 1,112 |
 
 Broken down by whoever answers in front of the site (read from the response headers of the same
@@ -31,13 +31,13 @@ contradicts the site's own stated policy, and is almost always an edge default n
 
 | Edge in front of the site | Domains | Requests robots.txt allows | Refused anyway |
 |---|---|---|---|
-| Akamai | 798 | 4,450 | 38% |
+| Akamai | 799 | 4,458 | 39% |
 | Google | 805 | 5,093 | 33% |
 | Sucuri | 78 | 506 | 22% |
 | AWS CloudFront | 3,207 | 17,777 | 16% |
-| no known edge | 12,856 | 75,328 | 11% |
+| no known edge | 12,854 | 75,315 | 11% |
 | Azure Front Door | 314 | 1,639 | 10% |
-| Cloudflare | 28,339 | 198,343 | 10% |
+| Cloudflare | 28,340 | 198,348 | 10% |
 | DDoS-Guard | 311 | 1,802 | 10% |
 | Fastly | 1,541 | 8,245 | 9% |
 | Varnish | 419 | 2,195 | 9% |
@@ -70,7 +70,7 @@ signature the current table recognises). A weekly pass re-reads them, so the nam
 
 ## Citing
 
-> Agent Web Index, 2026-10-13. 50,414 domains. <https://shop.lumnika.com/ai-readiness/>
+> Agent Web Index, 2026-10-14. 50,414 domains. <https://shop.lumnika.com/ai-readiness/>
 
 Licence: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — use it, say where it came from.
 
