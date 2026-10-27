@@ -15,14 +15,14 @@ this by making the request as that crawler, which is why no robots.txt study rep
 
 | Crawler | Domains measured | Served | robots.txt says no | Server says no anyway |
 |---|---|---|---|---|
-| claudebot | 50,448 | 84% | 2,051 | 7,217 |
-| gptbot | 50,448 | 85% | 2,605 | 6,878 |
-| oai-searchbot | 50,448 | 90% | 794 | 4,747 |
-| perplexitybot | 50,448 | 90% | 1,209 | 4,612 |
-| meta-externalagent | 41,707 | 89% | 1,163 | 4,206 |
+| claudebot | 50,448 | 84% | 2,051 | 7,216 |
+| gptbot | 50,448 | 85% | 2,605 | 6,879 |
+| oai-searchbot | 50,448 | 90% | 794 | 4,748 |
+| perplexitybot | 50,448 | 90% | 1,209 | 4,613 |
+| meta-externalagent | 41,707 | 89% | 1,163 | 4,205 |
 | amazonbot | 41,707 | 85% | 1,265 | 5,602 |
-| bytespider | 24,998 | 86% | 666 | 3,248 |
-| applebot | 24,998 | 95% | 101 | 1,114 |
+| bytespider | 24,998 | 86% | 666 | 3,249 |
+| applebot | 24,998 | 95% | 101 | 1,115 |
 
 Broken down by whoever answers in front of the site (read from the response headers of the same
 request: `cf-ray`, `akamai-grn`, `x-amz-cf-id`, `x-fastly-request-id`…). Unit: one domain ×
@@ -62,15 +62,15 @@ signature the current table recognises). A weekly pass re-reads them, so the nam
 - `Google-Extended` and `Applebot-Extended` never make requests — they are robots.txt opt-out
   tokens — so for those only robots.txt is reported and no "served" verdict exists.
 - Domains that answer with HTTP 429 are excluded from that pass rather than counted as blocking.
-- 16,003 measured hosts are infrastructure (CDNs, telemetry, resolvers) rather than
-  sites and are counted apart; 22,693 failed to answer and are excluded from every
+- 16,002 measured hosts are infrastructure (CDNs, telemetry, resolvers) rather than
+  sites and are counted apart; 22,694 failed to answer and are excluded from every
   percentage.
 - Blocking AI crawlers is a legitimate choice, not a failure. This dataset records what is true,
   not what should be.
 
 ## Citing
 
-> Agent Web Index, 2026-10-26. 50,448 domains. <https://shop.lumnika.com/ai-readiness/>
+> Agent Web Index, 2026-10-27. 50,448 domains. <https://shop.lumnika.com/ai-readiness/>
 
 Licence: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — use it, say where it came from.
 
