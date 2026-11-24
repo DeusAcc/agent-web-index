@@ -15,14 +15,14 @@ this by making the request as that crawler, which is why no robots.txt study rep
 
 | Crawler | Domains measured | Served | robots.txt says no | Server says no anyway |
 |---|---|---|---|---|
-| claudebot | 53,024 | 84% | 2,297 | 7,497 |
-| gptbot | 53,024 | 84% | 2,891 | 7,142 |
-| oai-searchbot | 53,024 | 90% | 810 | 4,943 |
-| perplexitybot | 53,024 | 90% | 1,227 | 4,998 |
-| meta-externalagent | 44,283 | 89% | 1,413 | 4,522 |
-| amazonbot | 44,283 | 85% | 1,513 | 5,904 |
-| bytespider | 27,574 | 85% | 943 | 3,728 |
-| applebot | 27,574 | 95% | 113 | 1,338 |
+| claudebot | 53,024 | 84% | 2,300 | 7,491 |
+| gptbot | 53,024 | 84% | 2,894 | 7,136 |
+| oai-searchbot | 53,024 | 90% | 812 | 4,942 |
+| perplexitybot | 53,024 | 90% | 1,229 | 4,993 |
+| meta-externalagent | 44,283 | 89% | 1,414 | 4,521 |
+| amazonbot | 44,283 | 85% | 1,514 | 5,898 |
+| bytespider | 27,574 | 85% | 945 | 3,727 |
+| applebot | 27,574 | 95% | 113 | 1,335 |
 
 Broken down by whoever answers in front of the site (read from the response headers of the same
 request: `cf-ray`, `akamai-grn`, `x-amz-cf-id`, `x-fastly-request-id`…). Unit: one domain ×
@@ -31,16 +31,16 @@ contradicts the site's own stated policy, and is almost always an edge default n
 
 | Edge in front of the site | Domains | Requests robots.txt allows | Refused anyway |
 |---|---|---|---|
-| Akamai | 834 | 4,671 | 38% |
+| Akamai | 835 | 4,679 | 38% |
 | Google | 828 | 5,264 | 32% |
 | Sucuri | 90 | 600 | 27% |
-| AWS CloudFront | 3,296 | 18,413 | 16% |
-| no known edge | 13,396 | 79,971 | 12% |
+| AWS CloudFront | 3,294 | 18,400 | 16% |
+| no known edge | 13,396 | 79,970 | 12% |
 | Azure Front Door | 324 | 1,708 | 11% |
 | DDoS-Guard | 326 | 1,906 | 11% |
-| Cloudflare | 30,090 | 210,902 | 10% |
-| Fastly | 1,603 | 8,687 | 10% |
-| Varnish | 436 | 2,318 | 8% |
+| Cloudflare | 30,092 | 210,912 | 10% |
+| Fastly | 1,605 | 8,693 | 10% |
+| Varnish | 435 | 2,310 | 8% |
 
 `no known edge` is an upper bound, not a vendor: response headers are not kept, so a domain read before a signature was
 added to the table stays in that bucket until it is re-requested (a 250-domain sample on 19 Sep 2026: 14% already carry a
@@ -63,14 +63,14 @@ signature the current table recognises). A weekly pass re-reads them, so the nam
   tokens — so for those only robots.txt is reported and no "served" verdict exists.
 - Domains that answer with HTTP 429 are excluded from that pass rather than counted as blocking.
 - 16,014 measured hosts are infrastructure (CDNs, telemetry, resolvers) rather than
-  sites and are counted apart; 22,885 failed to answer and are excluded from every
+  sites and are counted apart; 22,889 failed to answer and are excluded from every
   percentage.
 - Blocking AI crawlers is a legitimate choice, not a failure. This dataset records what is true,
   not what should be.
 
 ## Citing
 
-> Agent Web Index, 2026-11-23. 53,024 domains. <https://shop.lumnika.com/ai-readiness/>
+> Agent Web Index, 2026-11-24. 53,024 domains. <https://shop.lumnika.com/ai-readiness/>
 
 Licence: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — use it, say where it came from.
 
